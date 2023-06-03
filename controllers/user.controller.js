@@ -4,7 +4,6 @@ const Helper = require('../helper/error.helper');
 const {validationResult} = require("express-validator");
 const bodyValidator = require("express-validator").body;
 
-
 exports.validateUser = ()=>{
     try {
         return [
